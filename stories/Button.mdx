@@ -1,0 +1,17 @@
+import { Canvas, Story } from '@storybook/addon-docs';
+
+# This is CSF Story with arbitrary MDX
+
+[Re: CSF Stories with arbitrary MDX](https://github.com/storybookjs/storybook/blob/next/addons/docs/docs/recipes.md#csf-stories-with-arbitrary-mdx)
+
+You can't see Source of non-story content inside a Canvas block
+
+<Canvas><div>Test Canvas</div></Canvas>
+
+However, Story source is still available
+
+<Canvas><Story id={"example-button--primary"}/></Canvas>
+
+> This issue doesn't shows up in stories.mdx docs
+
+[Check out Introduction](?path=/docs/example-introduction--page)
